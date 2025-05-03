@@ -2,7 +2,7 @@
 
 **Noor** is a minimalist PHP framework for building powerful, server-driven web applications with elegance and control.
 
-<img src="./cover.png" alt="Noor Logo" style="width: 100%; display: block;" />
+<img src="public/cover.png" alt="Noor Logo" style="width: 100%; display: block;" />
 
 > A Project by Qore
 
