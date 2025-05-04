@@ -25,7 +25,7 @@
         >
             Greet Me
         </button>
-        <div id="response" class="mt-4 text-xl text-green-700"></div>
+        <div id="response" class="mt-4"></div>
     </div>
 </body>
 </html>

@@ -5,3 +5,6 @@
 $noor->get('/', function () {
     return view('welcome');
 });
+$noor->get('/hello', function () {
+    return "<h1> hello from the server</h1>";
+});
