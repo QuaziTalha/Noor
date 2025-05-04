@@ -1,4 +1,6 @@
 <?php
+require_once 'helpers.php';
+
 class Noor {
     private $routes = [];
 
@@ -6,12 +8,6 @@ class Noor {
         $this->routes['GET'][$this->normalize($path)] = $handler;
     }
     
-    public function view($path) {
-        ob_start();
-        include "views/{$path}.php";
-        return ob_get_clean();
-     }
-
     public function dispatch() {
         $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
         $method = $_SERVER['REQUEST_METHOD'];
