@@ -32,6 +32,7 @@ Noor is not just a routing core. It is a **complete micro-framework** built for 
 ├── /lib
 │   ├── Noor.php           # Core framework logic (router, dispatcher)
 │   └── db.php             # SQLite connection bootstrap
+│   └── helpers.php        # Helpers Methods
 └── /public                # Static assets (css, js, icons)
 ```
 
@@ -83,7 +84,7 @@ Pull requests are welcome. Keep it lean, focused, and composable.
 
 - [x] `post()` route support
 - [ ] Route parameters (`/user/{id}`)
-- [-] `view()` helper with layout support
+- [x] `view()` helper with layout support
 - [ ] Basic error handling (404, 500, custom pages)
 - [ ] Middleware (`before`, `after`, global & per-route)
 - [ ] Named routes and URL generation
