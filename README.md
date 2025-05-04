@@ -27,7 +27,7 @@ Noor is not just a routing core. It is a **complete micro-framework** built for 
 ├── index.php              # Front controller
 ├── routes.php             # Route definitions
 ├── /controllers           # Controllers (e.g. HomeController.php)
-├── /models                # Data layer (e.g. Student.php)
+├── /models                # Database Schemas
 ├── /views                 # HTML views and partials
 ├── /lib
 │   ├── Noor.php           # Core framework logic (router, dispatcher)
